@@ -1,0 +1,54 @@
+
+.musicbox{height: fit-content;
+    width: 350px;margin-top: 100px;
+    margin-left: 400px;
+    
+   
+    background-color:  rgba(247, 7, 171, 0.485);
+    padding-bottom: 30px;
+    border-radius: 10%;
+
+}
+.navlogo{
+    height: 40px;width: 40px;text-align: center;line-height: 40px;
+    background-color: white;border-radius: 50%;box-shadow: 0 5px 5px rgba(247, 7, 171, 0.485);
+}
+.navbar{margin: auto;display: block;
+    height: 50px;width: 75%;display: flex;justify-content: space-between;align-items: center;
+}
+.img-container{
+    height: 200px;width: 200px;border: solid 5px white;margin: auto;border-radius: 50%;
+    background-image: url("buttompic.jpg");background-size: cover;background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+audio{
+    display: block;margin: auto;display: none;
+}
+input{ margin-top: 5px;
+    display: block;margin: auto;cursor: pointer;
+}
+.p{
+    margin-top: 10px;
+}
+#progress{
+    -webkit-appearance: none;width: 250px;border-radius: 10px;background-color: blue;height: 10px;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;height: 30px;width: 30px;background-color: palevioletred;border: solid 3px white;
+    border-radius: 50%;
+}
+button{
+    display: block;border: none;
+}
+.forward-backward{
+    height: 40px;width: 40px;font-size: 20px;text-align: center;line-height: 40px;
+    background-color: blue;border-radius: 50%;
+}
+.play-pause{
+    height: 50px;width: 50px;font-size: 30px;text-align: center;line-height: 50px;background-color: blue;
+    border-radius: 50%;
+}
+.buttons{margin: auto;margin-top: 50px;
+    width: 75%;height: 50px;display: flex;justify-content: space-around;align-items: center;
+    
+}
